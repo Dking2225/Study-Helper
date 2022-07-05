@@ -1,0 +1,82 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Playfair+Display&family=Sansita+Swashed:wght@300&display=swap');
+/*
+=============== 
+Variables
+===============
+*/
+
+:root{
+    /* colors */
+    --med_rose: #C9B3B3;
+    --dark_rose: #C8B1B1;
+    --light_rose: #EAE0E0;
+    --white: #FFFFFF; 
+    --black: #272727;
+    --light_black: #3F3F3F;
+    --ff_primary: 'Sansita Swashed', 'cursive';
+    --ff_secondary: 'Gwendolyn', 'cursive';
+    --ff_third: 'Playfair Display', serif; 
+
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container{
+    Swidth: 375px;
+    height: 667px;
+    background: var(--light_rose);    
+}
+.home-title{
+    font-family: var(--ff_secondary);
+    font-weight: 700;
+    font-size: 40px;
+}
+.home-header{
+    position: absolute;
+    left: 60px;
+    top: 108px;
+}
+.home-btns >*{
+    width: 148px;
+    height: 42px;
+    background-color: var(--med_rose);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+    font-family: var(--ff_primary);
+    font-weight: 300;
+    font-size: 26px;
+    color: var(--white);
+}
+
+.home-create{
+    position: absolute;
+    left: 29px;
+    top: 273px;
+}
+.home-review{
+    position: absolute;
+    left: 199px;
+    top: 273px;
+}
+.home-anki{
+    position: absolute;
+    left: 29px;
+    top: 352px;
+}
+.home-match{
+    position: absolute;
+    left: 199px;
+    top: 352px;
+}
